@@ -1,9 +1,19 @@
+/* Body */
 *::before,
 *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font: inherit;
+}
+
+body {
+    background-color: antiquewhite;
+    color: rgb(86, 87, 64);
+}
+
+.choiceWebsites {
+    
 }
 
 /* Fonter og tekst størrelser */
@@ -19,11 +29,16 @@ h3 {
     font-size: 6rem;
 }
 
+h4 {
+    font-size: 2rem;
+}
+
 /* Image settings*/
 img {
     max-width: 100%;
     display: block;
     width: 70rem;
     height: 30rem;
+    margin-inline: auto;
 }
 
