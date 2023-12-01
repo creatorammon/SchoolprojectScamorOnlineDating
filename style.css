@@ -1,0 +1,29 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+/* Fonter og tekst størrelser */
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 6rem;
+}
+
+/* Image settings*/
+img {
+    max-width: 100%;
+    display: block;
+    width: 70rem;
+    height: 30rem;
+}
+
