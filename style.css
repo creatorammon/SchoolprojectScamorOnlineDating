@@ -19,13 +19,15 @@ img {
     max-width: 100%;
     vertical-align: middle;
     height: auto;
-    border-radius: 1rem;
     border: rgb(111, 92, 83) solid 3px; 
 }
 
 /* Fonter og tekst størrelser */
 p {
     font-size: 22px;
+    margin-bottom: 1rem;
+    margin-inline: 18%;
+    text-align: left;
 }
 
 h1 {
@@ -52,28 +54,53 @@ a {
 
 /* Layout */
 body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     background-color: antiquewhite;
     color: rgb(86, 87, 64);
     text-align: center;
+    position: relative;
 }
 
 header {
     width: 100%; 
-    height: 30rem; 
+    height: 8rem; 
+    color: azure;
+    border: 2px solid yellow;
+
 }
 
 header img {
     width: 100%;
-    height: 30rem;
+    height: 6rem;
+}
+main {
+    height: max-content;
+    border: 2px solid red;
+}
+footer {
+    width: 100%;
+    border: 2px solid cyan;
+}
+
+.headerPic {
+    position: absolute;
+    left: 0;
+    z-index: -1;
 }
 
 .choiceWebsites {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 225px auto;
+    /* grid-template-rows: 225px auto; */
     padding-inline: 2rem;
     align-self: center;
     gap: 2rem;
+}
+
+.choiceWebsites img {
+    border-radius: 1rem;
+    border: rgb(111, 92, 83) solid 3px;
 }
 
 .article, .podcast, .test {
@@ -86,4 +113,3 @@ header img {
     border-radius: 1rem;
     text-align: center;
 }
-
