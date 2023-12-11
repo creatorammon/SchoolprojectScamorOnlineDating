@@ -81,8 +81,9 @@ header img {
     width: 100%;
     height: 6rem;
 }
-main {
-    width: 70%;
+
+.mainA {
+    width: 67%;
     margin-inline: auto;
 }
 footer {
@@ -134,12 +135,27 @@ footer {
     float: left;
     font-size: 22px;
     text-decoration: underline;
-    color: rgb(143, 136, 125);
+    color: rgb(79, 34, 34);
     padding-block: 0.5rem;
     padding-inline: 1rem;
-    border: solid black;
+    border: solid rgb(215, 145, 145);
     margin-block-end: 5rem;
+    border-radius: 1rem;
+    background-color: rgb(238, 176, 176)
 }
 
-
+.linkB {
+    text-align: left;
+    float: left;
+    font-size: 22px;
+    text-decoration: underline;
+    color: rgb(79, 34, 34);
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    border: solid rgb(215, 145, 145);
+    margin-block-end: 5rem;
+    margin-left: 1%;
+    border-radius: 1rem;
+    background-color: rgb(238, 176, 176)
+}
 
