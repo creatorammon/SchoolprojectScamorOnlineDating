@@ -26,7 +26,6 @@ img {
 p {
     font-size: 22px;
     margin-bottom: 2rem;
-    margin-inline: 18%;
     text-align: left;
 }
 
@@ -44,6 +43,10 @@ h3 {
 
 h4 {
     font-size: 2rem;
+}
+
+h5 {
+    font-size: 3rem;
 }
 
 a {
@@ -64,10 +67,14 @@ body {
 
 header {
     width: 100%; 
-    height: 8rem; 
-    color: azure;
+    height: 5rem; 
+    color: rgb(65, 94, 94);
     border: 2px solid yellow;
-
+    background-color: aliceblue;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header img {
@@ -75,19 +82,20 @@ header img {
     height: 6rem;
 }
 main {
-    height: max-content;
-    border: 2px solid red;
+    width: 70%;
+    margin-inline: auto;
 }
 footer {
     width: 100%;
     border: 2px solid cyan;
 }
 
-.headerPic {
+/* Class for index */
+/* .headerPic {
     position: absolute;
     left: 0;
     z-index: -1;
-}
+} */
 
 .choiceWebsites {
     display: grid;
@@ -113,3 +121,25 @@ footer {
     border-radius: 1rem;
     text-align: center;
 }
+
+/* Class for Article*/
+.ORtitle {
+    padding-top: 4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.linkA {
+    text-align: left;
+    float: left;
+    font-size: 22px;
+    text-decoration: underline;
+    color: rgb(143, 136, 125);
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    border: solid black;
+    margin-block-end: 5rem;
+}
+
+
+
