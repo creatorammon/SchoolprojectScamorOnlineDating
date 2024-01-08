@@ -89,7 +89,7 @@ header img {
 }
 footer {
     width: 100%;
-    border: 2px solid cyan;
+    /*border: 2px solid cyan;*/
     padding-top: 5rem;
 }
 
@@ -178,3 +178,11 @@ footer {
     background-color: rgb(238, 176, 176)
 }
 
+.wordlist {
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+}
+
+.start {
+    font-size: 3rem;
+}
